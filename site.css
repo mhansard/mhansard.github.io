@@ -1,0 +1,121 @@
+div.topblock
+{
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 2ex;
+}
+
+div.hspace
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 0px;
+}
+
+span.email
+{
+	font-family: 'Roboto Mono';
+	color: #202020; 
+	font-size: 18px;
+}
+
+span.heading {
+	font-size: 22px;
+	padding-bottom: 10px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #404040; 
+}
+
+h1.title {
+	font-size: 32px;
+	color: #3465a4;
+	margin-left: 0em;
+}
+
+body { 
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #404040; 
+	background-color: #F5F5F5; 
+	margin-left: 2em;
+}
+
+a {
+	color: #3465a4;
+}
+
+strong {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #404040; 
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 28px;
+	color: #3465a4;
+	margin-left: 0em;
+}
+
+p {
+	margin-top: .5em;
+	margin-bottom: 0em;
+	max-width: 45em; 
+}
+
+ol {
+	padding-left: 2em;
+}
+
+ol li {
+	font-size: 100%;
+   margin-top: .25em;
+   margin-bottom: .75em;
+}
+
+ol p {
+	font-weight: normal; 
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+ul {
+	margin-top: .5em;
+	padding-left: 1.5em;
+}
+
+ul li {
+	font-weight: normal; 
+	max-width: 45em; 
+	margin: 15px 0;
+}
+
+code { 
+	color: #707070; 
+	font-size:22px;
+	line-height: 1.5; 
+}
+
+pre {
+	max-width: 45em; 
+}
+
+pre, code {
+	background-color: #F5F5F5;
+	max-width: 55em; 
+}
+
+hr {
+	max-width: 55em;
+   margin-left:0;
+}
+
+image {
+	padding-left: 2em;
+}
+
+table {
+	padding-left: 1.8em;
+}

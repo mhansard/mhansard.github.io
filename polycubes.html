@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Stochastic polycube models</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="site.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Stochastic polycube models</h1>
+</header>
+<p><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'></p>
+<p>This research introduces a family of random 3D shapes, based on <a
+href="https://en.wikipedia.org/wiki/Polycube">polycube</a>
+constructions. Polycubes are face-connected assemblies of identical
+cubes, which can generate a wide variety of shapes, including those with
+concavities and holes. The resulting mesh and point cloud models are
+potentially useful for robotic grasping research, and related
+fields.</p>
+<p>A statistical shape generation algorithm is proposed, which can
+preferentially generate flatter or more elongated configurations. It is
+also shown that the local surface geometry can be varied, by random
+perturbation of the mesh vertices, while preventing self-intersections.
+This constraint allows analytic expressions to be obtained for the
+volume, surface area, and inertia tensor, in all cases. An efficient
+implementation is provided, as a <a
+href="https://julialang.org/">Julia</a> package.</p>
+<h1 id="technical-report">Technical report</h1>
+<ul>
+<li><a href="./polycube-models.pdf">Stochastic polycube models for
+robotic grasping research</a></li>
+</ul>
+<h1 id="julia-packages">Julia packages</h1>
+<ul>
+<li><a
+href="https://github.com/mhansard/PolycubeModels.jl">PolycubeModels</a></li>
+<li><a
+href="https://github.com/mhansard/MeshRender.jl">MeshRender</a></li>
+</ul>
+</body>
+</html>
